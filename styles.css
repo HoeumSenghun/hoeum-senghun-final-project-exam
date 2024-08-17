@@ -53,3 +53,39 @@ body {
 }
 
 
+footer {
+    background-color: #2C2C2C; /* Dark background similar to the image */
+    color: #FFFFFF; /* White text color */
+}
+
+footer h5 {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+    color: #AAAAAA; /* Lighter gray on hover */
+}
+
+footer .text-center p {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+footer .container {
+    padding-bottom: 1rem;
+}

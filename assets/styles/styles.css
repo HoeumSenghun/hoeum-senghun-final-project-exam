@@ -1,22 +1,12 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
 }
 
-/* .jumbotron {
-    background: url('assets/hero.jpg') no-repeat center center;
-    background-size: cover;
-    color: white;
-}
-
-.card img {
-    height: 200px;
-    object-fit: cover;
-} */
-
 /* Navbar customization */
 .navbar {
-    background-color: #1B1C1D; /* Dark background similar to the image */
-    padding: 10px 0; /* Adjust padding for the navbar */
+    background-color: #11131D; /* Dark background */
+    padding: 10px 0;
 }
 
 .navbar-brand {
@@ -31,7 +21,7 @@ body {
 
 .navbar-nav .nav-link {
     color: #FFFFFF; /* White text for links */
-    font-size: 1rem; /* Adjust font size */
+    font-size: 1rem;
     padding: 10px 15px; /* Adjust padding for links */
     transition: color 0.3s ease;
 }
@@ -49,13 +39,13 @@ body {
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=UTF8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+    background-image: url("");
 }
 
-
+/* Footer customization */
 footer {
-    background-color: #2C2C2C; /* Dark background similar to the image */
-    color: #FFFFFF; /* White text color */
+    background-color: #db0000;
+    color: #0826ce;
 }
 
 footer h5 {
@@ -78,7 +68,7 @@ footer ul li a {
 }
 
 footer ul li a:hover {
-    color: #AAAAAA; /* Lighter gray on hover */
+    color: #AAAAAA; 
 }
 
 footer .text-center p {
